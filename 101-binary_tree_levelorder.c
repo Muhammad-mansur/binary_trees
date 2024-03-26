@@ -21,7 +21,7 @@ size_t binary_tree_size(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_level_order - traverse a binary tree using
+ * binary_tree_levelorder - traverse a binary tree using
  * level-order traversal
  * @tree: pointer to the root node of the tree to traverse
  * @func: pointer to a function to call for each node
