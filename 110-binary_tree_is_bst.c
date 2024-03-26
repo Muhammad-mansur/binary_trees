@@ -9,7 +9,7 @@
 
 int binary_tree_is_bst(const binary_tree_t *tree)
 {
-	static const binary_tree_t *prev = NULL;
+	static const binary_tree_t *prev;
 
 	if (tree == NULL)
 		return (1);
